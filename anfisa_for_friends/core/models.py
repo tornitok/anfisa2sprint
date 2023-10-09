@@ -7,3 +7,4 @@ class PublishedModel(models.Model):
 
     class Meta:
         abstract = True
+        ordering = ('title',)
